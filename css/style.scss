@@ -1,0 +1,101 @@
+$sage:rgb(168, 241, 168);
+body{
+    margin: auto;
+    background:rgb(245, 237, 220);
+    font-family: 'Mali', cursive;
+
+}
+.navBar{
+    margin: auto;
+
+    border-bottom: 2px solid black;
+    width:56em;
+    height: 4.7em;
+    padding: 0em .8em 0em .8em;
+    ul{
+        padding: 0;
+        list-style: none;
+        li{
+        float: left;
+        font-size: 1.1em;
+        font-weight: bold;
+        margin-right: .8em;
+        a{
+            text-decoration: none;
+            color:black;
+            background-color: rgb(168, 241, 168);
+            border: 2px solid black;
+            border-bottom: none;
+            padding: 1.2em;
+            padding-bottom: 1.65em;
+            -webkit-border-top-left-radius: 10px;
+            -webkit-border-top-right-radius: 10px;
+            -moz-border-top-left-radius: 10px;
+            -moz-border-top-right-radius: 10px;
+            width:5em;
+            display: block;
+            text-align: center;
+            &:hover{
+                text-decoration: none;
+                color:black;
+                background-color: rgb(196, 245, 196);
+                -moz-transition: background-color 200ms ease-in;
+                -webkit-transition: background-color 200ms ease-in;
+                -ms-transition: background-color 200ms ease-in;
+                -o-transition: background-color 200ms ease-in;
+                transition: background-color 200ms ease-in;
+            }
+           
+        
+        }
+        }
+    }
+    
+}
+
+.navBar ul li a#onlink{
+    background-color:white;
+    color:black;
+    border-bottom: 2px solid white;
+    &:hover{
+        background-color: white;
+        color:black;
+    }
+}
+.main{
+ font-weight: bold;
+ h1{text-align: center;}
+ 
+    margin: auto;
+width: 54.7em;
+padding: 1.3em;
+border: 2px solid black;
+min-height: 25em;
+border-top: none;
+background-color: white;
+.pix{
+    margin-top: 4em;
+    display: flex;
+    justify-content: space-evenly;
+   
+    img{
+        height: 9em;
+        width: 10em;
+        border: 2px solid black;
+        &:hover{
+            border-radius: 8px;
+        }
+    }
+}
+.lists{
+    display: flex;
+    justify-content: space-evenly;
+    li{
+        width: 30em;
+    }
+    img{
+        margin-left: 50%;
+      }
+}
+
+}
